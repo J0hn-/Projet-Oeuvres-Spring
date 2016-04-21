@@ -23,7 +23,7 @@
 									</div>
 								</div>
 							</div>
-							<a href="adherent?action=lister">
+							<a href="/adherent/lister">
 								<div class="panel-footer">
 									<span class="pull-left">Voir la liste</span>
 									<span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -45,7 +45,7 @@
 									</div>
 								</div>
 							</div>
-							<a href="oeuvre?action=lister">
+							<a href="/oeuvre/lister">
 								<div class="panel-footer">
 									<span class="pull-left">Voir la liste</span>
 									<span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -67,7 +67,7 @@
 									</div>
 								</div>
 							</div>
-							<a href="reservation?action=lister">
+							<a href="/reservation/lister">
 								<div class="panel-footer">
 									<span class="pull-left">Voir la liste</span>
 									<span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>

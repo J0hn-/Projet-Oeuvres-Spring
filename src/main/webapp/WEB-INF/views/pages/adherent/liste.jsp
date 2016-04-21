@@ -47,7 +47,7 @@
                                     <td>${item.nomAdherent}</td>
                                     <td>${item.prenomAdherent}</td>
                                     <td>${item.villeAdherent}</td>
-                                    <td><a href="adherent?action=modif&adherent=${item.idAdherent}"><i class="fa fa-edit"></i></a></td>
+                                    <td><a href="/adherent/modif/?adherent=${item.idAdherent}"><i class="fa fa-edit"></i></a></td>
                                 </tr>
                             </c:forEach>
                             </tbody>

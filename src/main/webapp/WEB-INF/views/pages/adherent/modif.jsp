@@ -18,7 +18,7 @@
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-lg-6">
-                            <form name="identification" method="post" action="adherent?action=modifier" role="form">
+                            <form name="identification" method="post" action="/adherent/modifier" role="form">
                                 <div class="form-group">
                                     <label>Nom</label>
                                     <input name="txtnom" class="form-control" value="${adherent.prenomAdherent}">

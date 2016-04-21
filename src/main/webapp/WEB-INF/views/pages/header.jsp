@@ -54,7 +54,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.jsp">Médiathèque de POLYTECH</a>
+            <a class="navbar-brand" href="/">Médiathèque de POLYTECH</a>
         </div>
         <!-- /.navbar-header -->
 
@@ -69,16 +69,16 @@
             <div class="sidebar-nav navbar-collapse">
                 <ul class="nav" id="side-menu">
                     <li>
-                        <a href="index.jsp"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                        <a href="/"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                     </li>
                     <li>
                         <a href="#"><i class="fa fa-users fa-fw"></i> Adhérents<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="adherent?action=ajout"><i class="fa fa-user fa-fw"></i> Ajout d'un adhérent</a>
+                                <a href="/adherent/ajout"><i class="fa fa-user fa-fw"></i> Ajout d'un adhérent</a>
                             </li>
                             <li>
-                                <a href="adherent?action=lister"><i class="fa fa-table fa-fw"></i> Liste des adhérents</a>
+                                <a href="/adherent/lister"><i class="fa fa-table fa-fw"></i> Liste des adhérents</a>
                             </li>
                         </ul>
                         <!-- /.nav-second-level -->
@@ -87,19 +87,19 @@
                         <a href="#"><i class="fa fa-university fa-fw"></i> Oeuvres<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="oeuvre?action=proprio"><i class="fa fa-suitcase fa-fw"></i> Ajout d'un proprietaire</a>
+                                <a href="/oeuvre/proprio"><i class="fa fa-suitcase fa-fw"></i> Ajout d'un proprietaire</a>
                             </li>
                             <li>
-                                <a href="oeuvre?action=ajout"><i class="fa fa-upload fa-fw"></i> Ajout d'une oeuvre</a>
+                                <a href="/oeuvre/ajout"><i class="fa fa-upload fa-fw"></i> Ajout d'une oeuvre</a>
                             </li>
                             <li>
-                                <a href="oeuvre?action=lister"><i class="fa fa-table fa-fw"></i> Liste des oeuvres</a>
+                                <a href="/oeuvre/lister"><i class="fa fa-table fa-fw"></i> Liste des oeuvres</a>
                             </li>
                         </ul>
                         <!-- /.nav-second-level -->
                     </li>
                     <li>
-                        <a href="reservation?action=lister"><i class="fa fa-cc-visa fa-fw"></i> Réservation</a>
+                        <a href="/reservation/lister"><i class="fa fa-cc-visa fa-fw"></i> Réservation</a>
                     </li>
                 </ul>
             </div>

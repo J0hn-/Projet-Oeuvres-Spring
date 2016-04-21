@@ -12,15 +12,8 @@ import org.springframework.web.servlet.mvc.multiaction.MultiActionController;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-//import com.epul.metier.*;
-//import com.epul.meserreurs.*;
-
-///
-/// Les méthode du contrôleur répondent à des sollicitations
-/// des pages JSP
-
 @Controller
-public class MultiControleur extends MultiActionController {
+public class MultiController extends MultiActionController {
 
 //	private static final Logger logger = LoggerFactory.getLogger(MultiControleur.class);
 
