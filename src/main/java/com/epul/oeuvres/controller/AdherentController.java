@@ -85,6 +85,5 @@ public class AdherentController extends MultiActionController {
 
         return new ModelAndView(destinationPage);
     }
-
 }
 
