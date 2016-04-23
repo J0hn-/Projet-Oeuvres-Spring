@@ -25,7 +25,7 @@
             <div class="panel panel-default">
                 <div class="col-lg-6">
                     <h2>Reservation</h2>
-                    <form name="reservation" method="post" action="reservation?action=reserver&oeuvre=${oeuvre.idOeuvrevente}" role="form">
+                    <form name="reservation" method="post" action="/reservation/reserver?oeuvre=${oeuvre.idOeuvrevente}" role="form">
                         <div class="form-group">
                             <label for="adherent">
                                 Réserver au nom de :

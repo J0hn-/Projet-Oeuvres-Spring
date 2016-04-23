@@ -21,7 +21,7 @@
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-lg-6">
-                            <form name="identification" method="post" action="oeuvre?action=inserer" role="form">
+                            <form name="identification" method="post" action="/oeuvre/inserer" role="form">
                                 <div class="form-group">
                                     <label>Titre</label>
                                     <input name="titre" class="form-control">

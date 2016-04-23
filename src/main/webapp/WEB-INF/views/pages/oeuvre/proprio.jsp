@@ -18,7 +18,7 @@
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-lg-6">
-                            <form name="identification" method="post" action="oeuvre?action=insertion" role="form">
+                            <form name="identification" method="post" action="/oeuvre/insertion" role="form">
                                 <div class="form-group">
                                     <label>Nom</label>
                                     <input name="nom" class="form-control">
