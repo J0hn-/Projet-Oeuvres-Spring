@@ -10,10 +10,11 @@ import java.util.Date;
  */
 public class Reservation implements Serializable {
 	private static final long serialVersionUID = 1L;
-	
+
 	private Date date;
 	private Adherent adherent;
 	private Oeuvrevente oeuvrevente;
+	private String statut;
 
 	public Reservation() {
 	}
@@ -43,6 +44,14 @@ public class Reservation implements Serializable {
 
 	public void setAdherent(Adherent adherent) {
 		this.adherent = adherent;
+	}
+
+	public String getStatut() {
+		return this.statut;
+	}
+
+	public void setStatut(String statut) {
+		this.statut = statut;
 	}
 
 	public Oeuvrevente getOeuvrevente() {

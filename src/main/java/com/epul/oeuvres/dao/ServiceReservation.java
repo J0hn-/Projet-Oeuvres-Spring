@@ -43,7 +43,9 @@ public class ServiceReservation {
                 SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
                 Date date = sdf.parse(rs.get(index + 2).toString());
                 reservation.setDate(date);
-                index = index + 3;
+
+                reservation.setStatut(rs.get(index + 3).toString());
+                index = index + 4;
                 mesReservation.add(reservation);
             }
 
